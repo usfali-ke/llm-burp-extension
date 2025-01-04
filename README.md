@@ -1,6 +1,15 @@
 # llm-burp-extension
 
-# Steps to Use the Enhanced Extension
+# Steps to Use the Enhanced Extension - v1
+1. Save the code to a file, e.g., ChatGPTVulnFinderWithTab.py.
+2. Load the extension in Burp Suite:
+   Go to Extender > Extensions > Add.
+   Select "Python" and load the file.
+3. Capture HTTP traffic:
+   Intercept and forward requests as usual.
+View the analysis results under the "ChatGPT Vulnerabilities" tab.
+
+# Steps to Use the Enhanced Extension - v2
 1. Save the code as a .py file, e.g., EnhancedChatGPTVulnFinder.py.
 2. Load the extension in Burp Suite:
    Go to Extender > Extensions > Add.
