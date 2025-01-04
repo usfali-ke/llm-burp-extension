@@ -21,3 +21,12 @@ View the analysis results under the "ChatGPT Vulnerabilities" tab.
    Search for terms or export results via the provided buttons.
 
 This enhanced version streamlines user interaction and offers advanced features, making it a robust tool for integrating ChatGPT into Burp Suite workflows.
+
+# Steps to Adapt to a Specific LLM
+1. Refer to the LLM provider's API documentation.
+2. Update the sendToLLM function to match the required payload structure.
+3. Configure the API URL and authentication settings using the Burp Suite tab.
+
+This design ensures flexibility and allows the extension to work seamlessly with any LLM supporting an API interface.
+
+Payload Adaptability: The payload structure and headers can be adapted based on the LLM provider’s requirements.
